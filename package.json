@@ -1,0 +1,22 @@
+{
+  "name": "test_assignment_test_01",
+  "version": "1.0.0",
+  "description": "A test assignment. Felt cute. May delete later.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vucs-2019/test_assignment_test_01.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vucs-2019/test_assignment_test_01/issues"
+  },
+  "homepage": "https://github.com/vucs-2019/test_assignment_test_01#readme",
+  "devDependencies": {
+    "mocha": "^6.1.3"
+  }
+}
