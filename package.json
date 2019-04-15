@@ -4,7 +4,7 @@
   "description": "A test assignment. Felt cute. May delete later.",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha test --reporter mocha-junit-reporter mochaFile=./jenkins-test-results.xml"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/vucs-2019/test_assignment_test_01#readme",
   "devDependencies": {
-    "mocha": "^6.1.3"
+    "mocha": "^6.1.3",
+    "mocha-junit-reporter": "^1.21.0"
   }
 }
