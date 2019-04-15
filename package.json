@@ -4,7 +4,7 @@
   "description": "A test assignment. Felt cute. May delete later.",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test --reporter mocha-junit-reporter mochaFile=./jenkins-test-results.xml"
+    "test": "mocha test --reporter mocha-junit-reporter --reporter-options mochaFile=./jenkins-test-results.xml"
   },
   "repository": {
     "type": "git",
